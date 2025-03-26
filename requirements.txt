@@ -1,0 +1,5 @@
+selenium
+requests
+pytest
+
+# to install use: pip -r requirements.txt
