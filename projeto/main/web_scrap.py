@@ -1,3 +1,5 @@
+import os
+
 import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -46,6 +48,8 @@ def download_links(
 ) -> (
     None
 ):  # get the dict with name and links and creates a file with the name of the element from the link that was attached with it
+
+    os.makedirs("projeto/files", exist_ok=True)
 
     for (
         name,
