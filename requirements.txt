@@ -1,5 +1,7 @@
 selenium
 requests
 pytest
+cython
 
+# code may use cython for better module management
 # to install use: pip -r requirements.txt
